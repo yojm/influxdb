@@ -26,6 +26,12 @@
 - [#8093](https://github.com/influxdata/influxdb/issues/8093): Fix the time range when an exact timestamp is selected.
 - [#8174](https://github.com/influxdata/influxdb/issues/8174): Fix query parser when using addition and subtraction without spaces.
 
+## v1.2.3 [unreleased]
+
+### Bugfixes
+
+- [#8022](https://github.com/influxdata/influxdb/issues/8022): Segment violation in models.Tags.Get
+
 ## v1.2.2 [2017-03-14]
 
 ### Release Notes
