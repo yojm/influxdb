@@ -236,7 +236,9 @@ The **InfluxDB** client also supports writing over UDP.
 ```go
 func WriteUDP() {
 	// Make client
-	c, err := client.NewUDPClient("localhost:8089")
+	c, err := client.NewUDPClient(client.UDPConfig{
+		Addr: "localhost:8089",
+	})
 	if err != nil {
 		panic(err.Error())
 	}
